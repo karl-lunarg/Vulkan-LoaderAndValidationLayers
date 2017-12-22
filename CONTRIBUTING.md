@@ -57,7 +57,7 @@ If you choose to work on an issue that is already assigned, simply coordinate wi
     * The indent is 4 spaces instead of the default 2 spaces. Again, the clang-format tool will handle this.
     * If you can justify a reason for violating a rule in the guidelines, then you are free to do so. Be prepared to defend your decision during code review. This should be used responsibly. An example of a bad reason is "I don't like that rule." An example of a good reason is "This violates the style guide, but it improves type safety."
 
-* Run **clang-format** on your changes to maintain formatting
+* Run **clang-format** (version 3.8) on your changes to maintain formatting
     * There are `.clang-format files` throughout the repository to define clang-format settings
       which are found and used automatically by clang-format.
     * A sample git workflow may look like:
